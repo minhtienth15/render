@@ -3,7 +3,7 @@ name: Trigger Render Deploy (Overwrite README)
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours (at minute 0 past every 6th hour)
+    - cron: '0 */8 * * *'  # Runs every 8 hours (at minute 0 past every 8th hour)
   workflow_dispatch:        # Allows manual trigger from GitHub Actions tab
 
 permissions:
