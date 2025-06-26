@@ -3,7 +3,7 @@ name: Daily render ping
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every 2 hours (at minute 0 past every 2nd hour)
+    - cron: '0 */2 * * *'  # Runs every 2 hours (at minute 0 past every 2nd hour)
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
